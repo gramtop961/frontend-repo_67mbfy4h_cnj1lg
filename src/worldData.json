@@ -1,0 +1,39 @@
+{
+  "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1920&auto=format&fit=crop", 
+  "hotspots": [
+    { "id": "rice-field", "label": "Rice Field", "x": 12, "y": 62, "type": "timeline" },
+    { "id": "market-stall", "label": "Market Stall", "x": 35, "y": 58, "type": "guess-local" },
+    { "id": "shop-owner", "label": "Shop Owner", "x": 46, "y": 52, "type": "shop-smart" },
+    { "id": "cafe", "label": "Café", "x": 65, "y": 48, "type": "facts" },
+    { "id": "waste-sorting", "label": "Waste Sorting Area", "x": 86, "y": 60, "type": "sorting" }
+  ],
+  "facts": [
+    "Choosing seasonal foods can reduce transport emissions by up to 10x.",
+    "Finishing leftovers saves money and prevents methane in landfills.",
+    "Bring your own cup or container—many cafes offer discounts."
+  ],
+  "timeline": [
+    { "stage": "Plant", "text": "Seeds are planted in wet paddies; water is carefully managed." },
+    { "stage": "Grow", "text": "Rice plants grow for months—farmers maintain fields and control pests." },
+    { "stage": "Harvest", "text": "Mature rice is cut and dried before milling." },
+    { "stage": "Sell", "text": "Rice is sold to local markets and shops, supporting families." }
+  ],
+  "guessLocal": [
+    { "name": "Mango", "local": true },
+    { "name": "Blueberries", "local": false },
+    { "name": "Rice", "local": true },
+    { "name": "Salmon", "local": false }
+  ],
+  "shopSmart": [
+    { "item": "Fresh bread", "need": true },
+    { "item": "Extra chips (on discount)", "need": false },
+    { "item": "Vegetables", "need": true },
+    { "item": "Third soda bottle", "need": false }
+  ],
+  "sortingItems": [
+    { "name": "Bruised apple", "category": "Eat" },
+    { "name": "Unopened canned beans", "category": "Donate" },
+    { "name": "Vegetable peels", "category": "Compost" },
+    { "name": "Plastic wrapper", "category": "Trash" }
+  ]
+}
